@@ -1,0 +1,18 @@
+.btn {
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    background-color: black;
+    color:rgb(255, 255, 255);
+    padding: auto;;
+    border-radius: 0.5rem;
+    ;
+}
+
+.logosava {
+    border-image-slice: inherit;
+
+}
+
+.btn:hover {
+    box-shadow: 0 0.3rem 0.4rem rgba(204, 158, 53, 0.8)
+}
