@@ -14,5 +14,35 @@
 }
 
 .btn:hover {
-    box-shadow: 0 0.3rem 0.4rem rgba(204, 158, 53, 0.8)
+    box-shadow: 0 0.3rem 0.4rem rgba(212, 152, 10, 0.8)
+}
+
+/*section {
+    background-color: rgba(205, 169, 62, 0.608) ;
+    box-shadow: 0 0.1rem 0.2rem black;
+}*/
+
+.imput {
+    border-color: rgba(212, 152, 10, 0.8);
+    border-style: groove;
+}
+
+/* Estilos para centrar el label "Mensaje" y ajustar el textarea */
+.campo textarea {
+    width: 50%; /* Ancho del textarea al 100% */
+    height: 50px; /* Altura ajustada, puedes cambiar este valor según tus preferencias */
+    resize: vertical; /* Permite redimensionar verticalmente */
+    display: auto;
+    margin: 5px auto; /* Margen vertical automático y margen horizontal 10px */
+    padding: 7px;
+}
+
+/* Centrar el label "Mensaje" */
+.campo label[for="mensaje"] {
+    display: displaybox ;
+    text-align: right;
+}
+
+.campo {
+    text-align: left;
 }
